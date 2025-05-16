@@ -6,3 +6,11 @@
 2025-May-14-16:47:46 : Data loaded to Database as a table, Executing queries
 2025-May-14-16:47:46 : Process Complete
 2025-May-14-16:47:46 : Server Connection closed
+2025-May-16-09:22:34 : Preliminaries complete. Initiating ETL process
+2025-May-16-09:22:34 : Data extraction complete. Initiating Transformation process
+2025-May-16-09:22:34 : Data transformation complete. Initiating Loading process
+2025-May-16-09:22:34 : Data saved to CSV file
+2025-May-16-09:22:34 : SQL Connection initiated
+2025-May-16-09:22:34 : Data loaded to Database as a table, Executing queries
+2025-May-16-09:22:34 : Process Complete
+2025-May-16-09:22:34 : Server Connection closed
