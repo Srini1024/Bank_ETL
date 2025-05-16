@@ -31,5 +31,28 @@ This project demonstrates a complete **ETL (Extract, Transform, Load)** pipeline
 - Saves the transformed DataFrame to:
   - A CSV file: `Largest_banks_data.csv`
   - A SQLite database: `Banks.db`, table `Largest_banks`
+ 
+## 📝 Logged Stages (`code_log.txt`)
+Sample log entries include:
+---
+
+
+## 📊 Sample Queries Run
+- View all data:  
+  `SELECT * FROM Largest_banks`
+- Get average market cap in GBP:  
+  `SELECT AVG(MC_GBP_Billion) FROM Largest_banks`
+- List top 5 bank names:  
+  `SELECT Name FROM Largest_banks LIMIT 5`
+
+---
+
+## ▶️ How to Run
+
+1. **Install Requirements**  
+   All required packages are from the Python standard library or widely available:
+   ```bash
+   pip install pandas beautifulsoup4
+
 
 
